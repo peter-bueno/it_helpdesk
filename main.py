@@ -5,7 +5,8 @@ ticket_manager = TicketManager()
 
 def ticket_menu():
         while True:
-            print("1. Criar novo Ticket\n2. Visualizar Tickets\n3. Resolver Ticket\n4. Sair\n")
+            print("--- Menu de Tickets ---\n")
+            print("\n1. Criar novo Ticket\n2. Visualizar Tickets\n3. Resolver Ticket\n4. Sair\n")
             
             ticket_menu_choice = input("Escolha uma opção: ")
             
@@ -46,7 +47,7 @@ def ticket_menu():
 def user_menu():
     while True:
         
-        print("1. Acessar\n2. Criar novo usuario\n0. Sair\n\n")
+        print("\n1. Acessar\n2. Criar novo usuario\n0. Sair\n\n")
         user_menu_choice = input("Escolha sua opção: ")
         
         if user_menu_choice == "1":
